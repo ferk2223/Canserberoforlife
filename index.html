@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<HTml>
+    <html lang="en"></html>
+<font><title>Canserbero</title></font><font> <div align="right">
+    <form action="iniciarsesion.html">
+        <input  onclick="" type="submit" value="Iniciar sesion" width="100" height="200">
+    </form>
+    <form action="registrarse.html">
+        <input onclick="" type="submit" value="Registrarse" width="100" height="200">
+    </form>
+    <form action="comentarios.html">
+        <input type="submit" name="comentarios" id="Comentarios" value="Comentarios" height="200">
+    </form>
+    </div></font>
+
+<head>
+    <script>
+    window.onload = function pedirnombre() {
+         
+            const nombre = prompt("Por favor, ingresa tu nombre:");
+            if (nombre) {
+                alert("¡Hola, " + nombre + "!");
+            } else {
+                alert("No ingresaste ningún nombre.");
+            }
+            alert("Bienvenido a la pagina" +" " + nombre)
+             const confirmacion= confirm("¿Deseas continuar?")
+             if (confirmacion){
+                alert("Has decidido continuar")
+             }
+             else{("Has cancelado la accion")
+             window.location.href='https://www.google.com/?hl=es'
+
+             }
+            
+        }
+    </script> 
+    <div class="container">
+    <h1 class="letra1">Índice de Contenidos</h1>
+    
+        
+            <a class="enlace" href="#subtema1"><p >Canserbero</p></a>
+            <a class="enlace" href="#subtema2"><p >Lista de exitos</p></a>
+            <a class="enlace" href="#subtema3"><p >Redes sociales</p></a>
+            <a class="enlace" href="#subtema4"><p >Albumes</p></a>
+            <a class="enlace" href="#subtema5"><p >Videos y audios</p></a>
+            <a class="enlace" href="#subtema6"><p >Vistas</p></a>
+            <a class="enlace" href="#subtema7"><p >Reloj</p></a>
+   
+        <h1 class="letra1">Enlace a wikipedia</h1> 
+
+       <a class="enlace" href="https://es.wikipedia.org/wiki/Canserbero">Canserbero</a>
+      </div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        table{
+            border-collapse: collapse;
+            width: 100% ;
+            box-shadow: 20px 25px 20px 25px rgba(0, 0, 0, 0.5); 
+        }
+        th,td{
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+            background-color: gainsboro;
+            border-radius: 8px;
+        }
+        .tabla-derecha {
+            float: right; 
+            margin-left: 10px; 
+            border-radius: 8px;
+        }
+        
+        .alicentro {
+            float: center;
+        }
+        
+        .aliizquierda {
+            float: left;
+            margin-left: auto;
+        }
+        
+        .aliderecha {
+            float: right;
+            margin-right: auto;
+        }
+        
+        body {
+            background-image: url(fondo.avif);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .letra1 {
+            font-size: 1;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        .letra2 {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        
+        .imageniz {
+            float: left;
+            margin-left: 10px;
+        }
+        
+        .imagende {
+            float: right;
+            margin-right: 10px;
+        }
+        
+        .parrafo {
+            text-align: center; 
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        
+        hr {
+            border: 5px solid black;
+        }
+        .clock{
+            font-size: 20px;
+            text-align: left;
+           
+        }
+        .indice {
+            margin-bottom: 20px;
+        }
+        .indice a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+        .indice a:hover {
+            text-decoration: underline;
+        }
+        h2 {
+            margin-top: 40px;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        .justificado {
+            text-align: justify;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+         .caja {
+        width: auto;
+        height: auto;
+        margin: 20px;
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        background-image: url(fondo.avif);
+        }
+        input[type="submit"] {
+            background-color: #434547;
+            color: rgb(255, 255, 255);
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #ffffff;
+            color: #333;
+        }
+       .enlace{
+        font-family: arial, sans-serif;
+        color: rgb(92, 91, 91);
+        text-decoration: none;
+       }
+       .enlace:hover{
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+       }
+       .container {
+        width: auto;
+        height: auto;
+           background-image: url(fondo.avif);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            max-width: 400px;
+            width: 100%;
+            box-shadow: 5px 5px 20px 20px rgba(0, 0, 0, 0.5) ;
+        }
+
+       
+    </style>
+</head>
+
+<body>
+    
+    <div class="caja" align="center">
+        <h1 id="subtema1">Canserbero</h1>
+    </div>
+    <hr></hr>
+    <p>
+
+        <img src="can1.jpg" alt="EL KAN" width="250px" height="250px" class="imagende">
+        <img src="can2.jpg" alt="ELKAN" width="250px" height="250px" class="imageniz">
+        <p align="center" class="justificado"  >Cancerbero fue el nombre artístico de Tyrone González Oramas, un rapero y compositor venezolano nacido el 5 de septiembre de 1987 en Caracas, Venezuela. Es conocido por su estilo único y letras profundas que abordan temas como la violencia, la
+            desigualdad social y las luchas personales. Comenzó su carrera en la escena underground del rap venezolano a mediados de la década de 2000, ganando reconocimiento por sus habilidades líricas y su entrega apasionada en el escenario. Sus letras
+            a menudo reflejaban su propia experiencia personal y las realidades de la vida en los barrios marginales de Venezuela. Cancerbero alcanzó una mayor notoriedad con el lanzamiento de su mixtape "La Evidencia" en 2008, que incluía canciones como
+            "Es épico" y "Maquiavélico". Posteriormente, colaboró con otros artistas prominentes del rap venezolano, como Apache y Lil Supa, y continuó lanzando música que resonaba con una audiencia cada vez más amplia. Sin embargo, su vida estuvo marcada
+            por luchas personales, incluida una batalla contra la adicción y problemas de salud mental. Trágicamente, el 1 de enero de 2015, Cancerbero falleció a los 27 años, dejando un legado duradero en la escena del rap latinoamericano. A pesar de
+            su corta carrera, su impacto en la música y en aquellos que lo escucharon sigue siendo significativo, y es recordado como uno de los talentos más distintivos y conmovedores del rap en español.</p>
+    </p>
+    <p>
+        <h1 class="caja" class="letra1,justificado" align="center" id="subtema2">LISTA DE ALGUNOS EXITOS</h1>
+    </p>
+    <ol align="center">
+        <a href="https://music.youtube.com/watch?v=sq6oc066w14">
+            <li class="letra2">
+                <h3>Es epico</h3>
+            </li>
+        </a>
+        <a href="https://music.youtube.com/watch?v=XjA7tvuqXG4">
+            <li class="letra2">
+                <h3>C´es la mort</h3>
+            </li>
+        </a>
+        <a href="https://music.youtube.com/watch?v=Q3ymrDlBI3w">
+            <li class="letra2">
+                <h3>Maquiavélico</h3>
+            </li>
+        </a>
+        <a href="https://music.youtube.com/watch?v=Hk56W3KQdBY">
+            <li class="letra2">
+                <h3>Querer querernos</h3>
+            </li>
+        </a>
+        <a href="https://music.youtube.com/watch?v=NcpeSohogzs">
+            <li class="letra2">
+                <h3>Apa y can</h3>
+            </li>
+        </a>
+    </ol>
+    <hr></hr>
+
+    <head>
+        <h3 class="caja" align="center" id="subtema3"><i>Redes sociales</i></h3>
+        <a href="https://music.youtube.com/channel/UC-Gh7ndBnNZvGRjCzlt2Ecw">
+            <h4 align="center">YOUTUBE MUSIC</h4>
+        </a>
+    </head>
+    <table class="tabla-derecha"> 
+        <tr><td><h3><b id="subtema4">Albumes:</b></h3></td></tr>
+        <tr>
+            <td>
+                <h3>Muerte</h3>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h3>Vida</h3>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h3>Guia de accion</h3>
+            </td>
+        </tr>
+    </table>
+<div class="caja" align="center"><p><h1 id="subtema5">Videos y Audios</h1></p></div>
+    <p> <audio controls>
+        <source src="Canserbero - Jeremías 17_5 (Video Oficial) (320  kbps) (ytmp3xd.com) (1).mp3" type="audio/mp3">
+       
+    </audio>
+    <div align="center">
+    <video width="400" height="200" autoplay controls>
+        <source src="canserbero-estupid-love-story-letra_314033.mp4" type="video/mp4" >
+        </video></div>
+        <audio class="aliderecha" controls>
+            <source src="El Canserbero – Maquiavélico.mp3" type="audio/mp3"></audio>
+   
+    </p> 
+    <div  >
+
+    <p  id="subtema6"> Esta página ha sido visitada  <span id="visitCount"> 0 </span>  veces.</p>
+    <p id="subtema7"></p>
+    <div id="clock" style="font-size: 24px; margin-top: 50px;"></div>
+
+    </div>
+
+    <script>
+// Contador de visitas
+var visitCount = localStorage.getItem('visitCount');
+        if (visitCount) {
+            visitCount = parseInt(visitCount) + 1;
+        } else {
+            visitCount = 1;
+        }
+        localStorage.setItem('visitCount', visitCount);
+        document.getElementById("visitCount").innerText = visitCount;
+
+        // Reloj en tiempo real
+        function updateTime() {
+            var now = new Date();
+            var hours = now.getHours();
+            var minutes = now.getMinutes();
+            var seconds = now.getSeconds();
+
+            minutes = minutes < 10 ? '0' + minutes : minutes;
+            seconds = seconds < 10 ? '0' + seconds : seconds;
+
+            var timeString = hours + ':' + minutes + ':' + seconds;
+
+            document.getElementById('clock').innerText = timeString;
+        }
+
+        setInterval(updateTime, 1000);
+        updateTime();
+    </script>
+
+
+
+</body>
+
+</HTml>
